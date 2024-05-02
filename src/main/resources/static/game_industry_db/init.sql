@@ -14,7 +14,7 @@ CREATE TABLE games
     game_id      SERIAL PRIMARY KEY,
     title        VARCHAR(255),
     genre        VARCHAR(255),
-    release_date DATE,
+    release_date VARCHAR(255),
     developer    VARCHAR(255)
 );
 
@@ -23,7 +23,7 @@ CREATE TABLE players
     player_id     SERIAL PRIMARY KEY,
     username      VARCHAR(255),
     email         VARCHAR(255),
-    date_of_birth DATE,
+    date_of_birth VARCHAR(255),
     country       VARCHAR(255)
 );
 
@@ -40,8 +40,8 @@ CREATE TABLE tournaments
     tournament_id SERIAL PRIMARY KEY,
     name          VARCHAR(255),
     game_name     VARCHAR(255),
-    start_date    DATE,
-    end_date      DATE,
+    start_date    VARCHAR(255),
+    end_date      VARCHAR(255),
     organizer     VARCHAR(255)
 );
 
