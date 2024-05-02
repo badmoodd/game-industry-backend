@@ -25,10 +25,10 @@ public class Tournament {
     private String gameName;
 
     @Column(name = "start_date")
-    private Date startDate;
+    private String startDate;
 
     @Column(name = "end_date")
-    private Date endDate;
+    private String endDate;
 
     @Column(name = "organizer")
     private String organizer;

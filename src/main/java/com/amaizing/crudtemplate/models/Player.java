@@ -25,7 +25,7 @@ public class Player {
     private String email;
 
     @Column(name = "date_of_birth")
-    private Date dateOfBirth;
+    private String dateOfBirth;
 
     @Column(name = "country")
     private String country;

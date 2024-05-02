@@ -25,7 +25,7 @@ public class Game {
     private String genre;
 
     @Column(name = "release_date")
-    private Date releaseDate;
+    private String releaseDate;
 
     @Column(name = "developer")
     private String developer;
